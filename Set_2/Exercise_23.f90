@@ -10,7 +10,7 @@ program Askisi_23
 
     k = sqrt(omega / 2.)
 
-    ! Fill connective matrix
+    ! Fill connectivity matrix
     do ie = 1, Ne
         Z(ie, 1) = ie
         Z(ie, 2) = ie + 1
